@@ -59,7 +59,7 @@ let currentValue=1;
 //function for previous button
 
 function prevButton(){
-    if(currentValue > 1){
+    if(currentValue >= 1){
         for(l of link){
             l.classList.remove("active");
         }
